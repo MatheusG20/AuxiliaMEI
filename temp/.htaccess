@@ -1,0 +1,7 @@
+RewriteEngine ON 
+Options All -Indexes
+
+DirectoryIndex index.php
+RewriteCond %{REQUEST_FILENAME} !-f 
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteRule ^(.*)$ /login/index.php?url=$1 [QSA,L]

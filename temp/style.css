@@ -1,0 +1,42 @@
+@import "./global/header.css";
+@import "./global/global.css";
+@import "./global/footer.css";
+@import "./utilidades/formulario.css";
+
+@import "./utilidades/tipografia.css";
+@import "./utilidades/cores.css";
+
+/* pagamento */
+@import "./pagamento/pagamento-lista.css";
+
+/* Utilidades */
+@import "./utilidades/componentes.css";
+
+/* Home page */
+@import "./home/introducao.css";
+@import "./home/tecnologia.css";
+@import "./home/parceiros.css";
+@import "./home/depoimento.css";
+@import "./planos/planos.css";
+
+/* termos */
+@import "./termos/termos.css";
+
+/* pagamento */
+@import "./pagamento/pagamento.css";
+
+/* planos */
+@import "./planos/perguntas.css";
+@import "./planos/vantagens.css";
+
+@import "./bicicleta/bicicleta.css";
+@import "./bicicleta/seguro.css";
+
+/* login */
+@import "./login/login.css";
+@import "./login/lojas.css";
+
+@import "./cadastro/cadastro.css";
+
+@import "./utilidades/animacao.css";
+@import "./utilidades/simple-anime.css";
